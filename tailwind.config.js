@@ -3,7 +3,8 @@ module.exports = {
   content: [
     "./src/Footer.js",
     "./src/App.js",
-    "./src/Home.js"
+    "./src/Nav.js",
+    "./src/Home.js",
   ],
   theme: {
     extend: {},
