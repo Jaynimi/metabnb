@@ -7,7 +7,7 @@ const Home = () => {
             <div className=''>
                 <main >
                     <nav className='w-11/12'>
-                        <div className='fixed top-0 z-50 w-full bg-white px-11 py-9 flex flex-row justify-between'>
+                        <div className='fixed top-0 z-50 w-full bg-white pt-6 pb-3 pr-14 pl-14 flex flex-row justify-between border border-gray-100 border-b-1 border-t-0 border-r-0 border-l-0 '>
                             <div>
                                 <a href="/"><img src={metacolored} alt="" className='md:w-[180px] lg:w-[200px]'/></a>
                             </div>
@@ -15,13 +15,13 @@ const Home = () => {
                                 <a aria-current="page" className="text-[#A02279]" href="/">
                                     Home
                                 </a>
-                                <a className="hover:text-[#A02279]" href="/placeToStay">
+                                <a className="hover:text-[#A02279]" href="/">
                                     Place to stay
                                 </a>
-                                <a aria-current="page" className="active hover:text-[#A02279]" href="">
+                                <a aria-current="page" className="active hover:text-[#A02279]" href="/">
                                     NFTs
                                 </a>
-                                <a aria-current="page" className="active hover:text-[#A02279]" href="">
+                                <a aria-current="page" className="active hover:text-[#A02279]" href="/">
                                     Community
                                 </a>
                             </div>
