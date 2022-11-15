@@ -15,7 +15,7 @@ const Home = () => {
                                 <a aria-current="page" className="text-[#A02279]" href="/">
                                     Home
                                 </a>
-                                <a className="hover:text-[#A02279]" href="/">
+                                <a className="hover:text-[#A02279]" href="/PlaceToStay">
                                     Place to stay
                                 </a>
                                 <a aria-current="page" className="active hover:text-[#A02279]" href="/">

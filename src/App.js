@@ -3,6 +3,7 @@ import Nav from './Nav';
 import Home from './Home';
 import Footer from './Footer';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import PlaceToStay from './PlaceToStay';
 
 function App() {
   return (
@@ -14,9 +15,9 @@ function App() {
               <Route exact path="/">
                 <Home />
               </Route>
-              {/*  <Route exact path="/contact">
-                <Contact />
-              </Route>  */}
+              <Route exact path="/placeToStay">
+                <PlaceToStay />
+              </Route>
             </Switch>
         </div>
         <Footer />

@@ -13,6 +13,7 @@ import img14 from './img/eight.b2722fc8.png';
 import img22 from './img/two.5d84b73c.png';
 import img23 from './img/three.00b19e76.png';
 import img24 from './img/four.02c41320.png';
+import threeImgs from './img/ThreeImages.0bbbe3ef.png';
 
 const Home = () => {
     return ( 
@@ -64,7 +65,7 @@ const Home = () => {
 
 
 
-<div class="mt-5 flex flex-col items-center justify-center py-[2.5rem] tall:px-[3rem] ">
+<div class="mt-5 flex flex-col items-center justify-center pt-[2.5rem] pb-0 tall:px-[3rem] ">
 <h2 class="mb-[2rem] text-xl font-bold md:text-3xl lg:text-[46px]">Inspiration for your next adventure</h2>
 <div class="mt-2 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
     <div>
@@ -291,6 +292,25 @@ const Home = () => {
         </div>
 
  
+        </div>
+
+        <div class="mt-5 flex h-[40rem] flex-col bg-[#A02279] p-2 md:flex-row md:justify-center md:gap-[2rem] md:p-8 lg:h-[774px] lg:items-center lg:p-[5rem]">
+            <div class="mb-10 flex flex-col gap-7 p-5 text-center text-white md:mb-0 md:w-2/5 md:justify-center md:text-left lg:justify-between">
+                <h2 class="text-3xl font-bold md:text-2xl lg:text-5xl">
+                    Metabnb NFTs
+                </h2>
+                <p class="text-sm leading-[2rem] md:text-xs lg:text-base lg:leading-[2rem]">
+                    Discover our NFT gift cards collection. Loyal customers gets amazing gift cards which are traded as NFTs. These NFTs gives our cutomer access to loads of our exclusive services.
+                </p>
+                <button class=" w-full rounded-lg bg-white p-4 text-base text-[#A02279] md:w-[156px]">
+                    Learn more
+                </button>
+            </div>
+            <div class=" w-4/5 self-center md:mx-[2rem] md:w-3/5">
+                <div class="">
+                    <img src={threeImgs} alt="Nfts"/>
+                </div>
+            </div>
         </div>
 </div>
 
