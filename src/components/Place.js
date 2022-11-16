@@ -16,7 +16,7 @@ const Place = ({ image }) => {
             </span>
             <span>
               <p className='font-bold mb-2.5'>1 MBT per night</p>
-              <p>available for 2 weeks stay</p>
+              <p>available for 2 weeks stay </p>
             </span>
         </div>
     </div>
