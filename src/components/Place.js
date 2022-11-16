@@ -4,7 +4,7 @@ import star from '../imgs/star.png'
 const Place = ({ image }) => {
 
   return (
-    <div className='rounded-2xl border border-lightgray border-solid p-4 flex flex-col justify-center mb-4 lg:mb-0'>
+    <div className='rounded-2xl border border-lightgray border-solid p-4 md:grid-cols-2 flex flex-col justify-center mb-4 lg:mb-0'>
         <div className='object-contain'>
             <img src={image} alt="Desert king" />
         </div>

@@ -9,6 +9,7 @@ import Wallet from '../components/Wallet';
 import card from '../imgs/homepage.png';
 import MediaQuery from 'react-responsive'
 import locations from '../data';
+import three from '../imgs/threeImages.png';
 
 const Homepage = () => {
     const [modal, setModal] = useState(false);
@@ -43,7 +44,7 @@ const Homepage = () => {
             matches =>
               matches && (
                 <div className='w-full mb-4'>
-                  <img src={card} alt="nft gift card" />
+                  <img src={three} alt="nft gift card" />
                 </div>
                 )
             }
@@ -58,7 +59,7 @@ const Homepage = () => {
             matches =>
               matches && (
                 <div className='w-full'>
-                  <img src={card} alt="nft gift card" />
+                  <img src={three} alt="nft gift card" />
                 </div>
                 )
             }
